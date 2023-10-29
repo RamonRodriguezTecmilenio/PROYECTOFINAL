@@ -2,12 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./STYLE/Index.css">
-    <script src="https://kit.fontawesome.com/31b86779d9.js" crossorigin="anonymous"></script>
-    <title>Index</title>
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <link rel="stylesheet" href="./STYLE/formulario.css">
+    <title>Formulario</title>
 </head>
-
 <body>
     <nav class="barraDeNavegacion">
         <ul>
@@ -20,22 +18,30 @@
            
         </ul>
     </nav>
-</body>
+<ul>
+   <form action="">
+       <label for="">Nombre</label>
+       <input type="text">
 
-<div class="blurredBG"></div>
+       <label for="">Apellido</label>
+       <input type="text">
 
-<img class="Logoanimation" src="./IMAGES/LOGO EMPRESA.png" alt="Logo">
+       <label for="">Email</label>
+       <input type="text">
 
-<script>
-    setTimeout(() => {
-        document.querySelector('.Logoanimation').style.display = 'none';
-        document.querySelector('.blurredBG').style.display = 'none';
-    }, 3000);
-</script>
+       <label for="">Contraseña</label>
+       <input type="text">
 
-<div>
-</div>
+       <label for="">Confirmar Contraseña</label>
+       <input type="text">
 
+       <input type="submit" value="Enviar">
+
+       <div class="link-redireccion">
+        ¿Ya tienes cuenta?<a href="Sesion.html">Inicia sesion</a>
+        </div>
+   </form>
+</ul>
 <footer class="Pie-pagina">
     <div class="grupo-1">
     <div class="box">
@@ -56,4 +62,5 @@
         <small>&copy; 2021 <b>Kings Sports</b> - Todos los Derechos Reservados.</small>
     </div>
   </footer>
+</body>
 </html>
