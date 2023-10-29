@@ -8,19 +8,19 @@
 li:hover{
     background-color: gray; 
     transform: scale(1.05);
- }
+}
  
- a{
+a{
      color: rgb(255, 255, 255);
      text-decoration: none;
- }
+}
  
- img{
+img{
      width: 100%;
      margin-top: 2px;
- }
+}
  
- .fa-house{
+.fa-house{
      font-size: 55px;
      color: white;
  }
